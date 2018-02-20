@@ -16,7 +16,12 @@ First clone this repo to your local.
 git clone https://github.com/melihkorkmaz/js-library-boilerplate.git
 ````
 
-You can add your code to src folder. And you can also use test folder to create your library tests.
+Then run npm install to be ready.
+````
+npm install
+````
+
+You can add your code to src folder. And you can also use test folder to create your library unit test.
 
 ### Build
 To build your library for development please run;
