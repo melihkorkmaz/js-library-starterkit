@@ -1,12 +1,12 @@
 import chai from 'chai';
 const expect = chai.expect;
 
-import boilerPlate from '../src';
+import jsStarterkit from '../src';
 
-describe('JS Boilerplate Tests', () => {
+describe('JS Starter Kit Tests', () => {
     it('should return "Hello World"', () => {
 
-        const response = boilerPlate();
+        const response = jsStarterkit();
 
         expect(response).to.equal('Hello World!');
 

@@ -1,5 +1,5 @@
-# Javascript Library Boilerplate
-It's a boilerplate to start to develop any kind of javascript libraries. It can build output for min.js, js, css and min.css.
+# Javascript Library Starter Kit
+It's a starter kit to start to develop any kind of javascript libraries. It can build output for min.js, js, css and min.css.
 
 ## Features
 - Babel compiler for ES6 features.
@@ -13,7 +13,7 @@ It's a boilerplate to start to develop any kind of javascript libraries. It can 
 ## Usage
 First clone this repo to your local.
 ````
-git clone https://github.com/melihkorkmaz/js-library-boilerplate.git
+git clone https://github.com/melihkorkmaz/js-library-starterkit.git
 ````
 
 Then run npm install to be ready.

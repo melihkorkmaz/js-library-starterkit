@@ -1,9 +1,9 @@
 {
-  "name": "js-library-boilerplate",
-  "libraryName": "jsBoilerPlate",
+  "name": "js-library-starterkit",
+  "libraryName": "jsStarterkit",
   "version": "1.0.0",
-  "description": "It's a boilerplate to develop javascript libraries.",
-  "main": "dist/js-library-boilerplate.min.js",
+  "description": "It's a starter kit to develop javascript libraries.",
+  "main": "dist/js-library-starterkit.min.js",
   "scripts": {
     "test": "NODE_ENV=test mocha ./test/**/*.js --require babel-core/register",
     "build": "npm run build:prod && npm run build:dev",
@@ -11,7 +11,7 @@
     "build:dev": "WEBPACK_ENV=dev webpack --progress --colors"
   },
   "keywords": [
-    "boilerplate",
+    "starterkit",
     "starter",
     "js",
     "js library",
@@ -19,14 +19,14 @@
   ],
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/melihkorkmaz/js-library-boilerplate.git"
+    "url": "git+https://github.com/melihkorkmaz/js-library-starterkit.git"
   },
   "author": "Melih Korkmaz - mk@count.ly",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/melihkorkmaz/js-library-boilerplate/issues"
+    "url": "https://github.com/melihkorkmaz/js-library-starterkit/issues"
   },
-  "homepage": "https://github.com/melihkorkmaz/js-library-boilerplate",
+  "homepage": "https://github.com/melihkorkmaz/js-library-starterkit",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-loader": "^7.1.2",

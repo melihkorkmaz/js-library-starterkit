@@ -4,9 +4,9 @@
 	else if(typeof define === 'function' && define.amd)
 		define([], factory);
 	else if(typeof exports === 'object')
-		exports["jsBoilerPlate"] = factory();
+		exports["jsStarterkit"] = factory();
 	else
-		root["jsBoilerPlate"] = factory();
+		root["jsStarterkit"] = factory();
 })(typeof self !== 'undefined' ? self : this, function() {
 return /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
@@ -93,4 +93,4 @@ exports.default = myFunc;
 /***/ })
 /******/ ]);
 });
-//# sourceMappingURL=js-library-boilerplate.js.map
+//# sourceMappingURL=js-library-starterkit.js.map
